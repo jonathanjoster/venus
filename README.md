@@ -7,7 +7,7 @@ import venus
 
 # ~~~ your code ~~~
 # after all above
-mscx.beep_bit(num=-1)
+venus.beep_bit(num=-1)
 ```
 If num is set to `-1`, it'll play random music.
 
