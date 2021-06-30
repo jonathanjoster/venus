@@ -169,5 +169,5 @@ def beep_bit(num=-1):
         r = random.randint(0, len(score)-1)
         num = r
     
-    m = Mscx('score/'+score[num][0]+'.mscx', bpm=score[num][1])
+    m = Mscx('/Users/oomiyanaoki/code/venus/score/'+score[num][0]+'.mscx', bpm=score[num][1])
     m.play()
