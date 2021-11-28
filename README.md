@@ -3,6 +3,7 @@ Venus alerts you completion of the process.
 
 # Setup
 ```
+pip install pyaudio # or conda install
 pip install synthesizer
 ```
 
