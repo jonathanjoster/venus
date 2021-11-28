@@ -1,15 +1,22 @@
 # What's Venus ?
-It alerts you that all of your code processed.
+Venus alerts you completion of the process.
+
+# Setup
+```
+pip install synthesizer
+```
 
 # How to use
 ```
 import venus
 
-# ~~~ your code ~~~
+# ~~~ your code here ~~~
 # after all above
+
 venus.beep_bit(num=-1)
 ```
-If num is set to `-1`, it'll play random music.
+Venus plays music according to the number specified.
+If set to `-1`, play randomly.
 
 # Music List
 
